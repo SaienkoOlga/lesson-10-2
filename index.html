@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="nav">
+                <a class="nav__link nav__link_active" href="/">Home</a>
+                <a class="nav__link" href="/about">About</a>
+                <a class="nav__link" href="/contact-us">Contact</a>
+                <a class="nav__link" href="/products">Products</a>
+            </nav>
+            <div class="header__logo">
+                <img src="images/Logo_sps.svg" alt="Logo SPS">
+            </div>
+            <div class="input-button">
+                <input class="field header_search-field" type="text" placeholder="Search...">
+                <button type="button" class="btn btn_filled header__buy-btn">BUY 99$</button>
+            </div>
+        </div>
+    </header>
+    <main class="container main__container">
+        <h1 class="main__title">Some Product Site</h1>
+        <section class="product">
+            <img class="product__img" src="images/product-1.jpg" alt="Calvin Klein Obsession">
+            <div class="product__about">
+                <h4 class="product__title">Calvin Klein Obsession</h4>
+                <p class="product__description">It is a long established fact that a reader will be distracted by the
+                    readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution
+                    of letters, as opposed to using 'Content here, content here', making it look like readable English
+                </p>
+                <button type="button" class="btn btn_outlined">BUY 25$</button>
+                <a class="product__link" href="#">Learn more</a>
+            </div>
+        </section>
+        <section class="product product_reversed">
+            <img class="product__img" src="images/product-2.jpg" alt="Lorem Ipsum is simply dummy text">
+            <div class="product__about_reversed">
+                <h4 class="product__title">Lorem Ipsum is simply dummy text</h4>
+                <p class="product__description_right">It is a long established fact that a reader will be distracted by
+                    the
+                    readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                    a
+                    more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+                    making it
+                    look like readable English</p>
+                <div>
+                    <button type="button" class="btn btn_outlined">BUY 32$</button>
+                    <a class="product__link" href="#">Learn more</a>
+                </div>
+        </section>
+        <section class="product">
+            <img class="product__img" src="images/product-3.jpg" alt="It has survived not only five centuries">
+            <div class="product__about">
+                <h4 class="product__title">It has survived not only five centuries</h4>
+                <p class="product__description">It is a long established fact that a reader will be distracted by the
+                    readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                    a
+                    more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+                    making it
+                    look like readable English</p>
+                <button type="button" class="btn btn_outlined">BUY 48$</button>
+                <a class="product__link" href="#">Learn more</a>
+            </div>
+        </section>
+        <button type="button" class="btn_shine product_more-btn">View more products</button>
+        <section class="contact-us">
+            <h4 class="product__title">Contact us</h4>
+            <ul class="contacts">
+                <li class="contact">
+                    <input class="contact__input" type="text" name="name" placeholder="Name">
+                </li>
+                <li class="contact">
+                    <input class="contact__input" type="text" name="surname" placeholder="Surname">
+                </li>
+                <li class="contact">
+                    <input class="contact__input" type="email" name="surname" placeholder="EMail">
+                </li>
+                <li class="contact">
+                    <input class="contact__input input_big" type="text" name="message" placeholder="Message">
+                </li>
+            </ul>
+            <div class="button_shine">
+                <button type="button" class="btn_shine contact-us__message">Send message</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <span class="footer__copyright">@Copyright 2016-2021 Some Product Site</span>
+            <img class="footer__logo" src="images/logo-footer.png" alt="logo some product site">
+            <nav class="nav footer-nav">
+                <a class="footer-nav__link footer-nav__link_active" href="/">Home</a>
+                <a class="footer-nav__link" href="/about">About</a>
+                <a class="footer-nav__link" href="/contact-us">Contact</a>
+                <a class="footer-nav__link" href="/products">Products</a>
+            </nav>
+        </div>
+        <div class="footer__button">
+            <button type="button" class="btn btn_outlined footer_btn">To Cart</button>
+        </div>
+    </footer>
+</body>
+
+</html>
