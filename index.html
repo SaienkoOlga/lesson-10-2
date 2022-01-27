@@ -16,7 +16,7 @@
     <header class="header">
         <div class="container header__container">
             <nav class="nav">
-                <a class="nav__link nav__link_active" href="/">Home</a>
+                <a class="nav__link" href="/">Home</a>
                 <a class="nav__link" href="/about">About</a>
                 <a class="nav__link" href="/contact-us">Contact</a>
                 <a class="nav__link" href="/products">Products</a>
@@ -79,31 +79,35 @@
         <button type="button" class="btn_shine product_more-btn">View more products</button>
         <section class="contact-us">
             <h4 class="product__title">Contact us</h4>
-            <ul class="contacts">
-                <li class="contact">
-                    <input class="contact__input" type="text" name="name" placeholder="Name">
-                </li>
-                <li class="contact">
-                    <input class="contact__input" type="text" name="surname" placeholder="Surname">
-                </li>
-                <li class="contact">
-                    <input class="contact__input" type="email" name="surname" placeholder="EMail">
-                </li>
-                <li class="contact">
-                    <input class="contact__input input_big" type="text" name="message" placeholder="Message">
-                </li>
-            </ul>
-            <div class="button_shine">
-                <button type="button" class="btn_shine contact-us__message">Send message</button>
-            </div>
+            <form action="/">
+                <ul class="contacts">
+                    <li class="contact">
+                        <input class="contact__input" type="text" name="name" placeholder="Name">
+                    </li>
+                    <li class="contact">
+                        <input class="contact__input" type="text" name="surname" placeholder="Surname">
+                    </li>
+                    <li class="contact">
+                        <input class="contact__input" type="email" required="required" name="surname"
+                            placeholder="Email">
+                    </li>
+                    <li class="contact">
+                        <textarea class="contact__input input_big" name="message" placeholder="Message"></textarea>
+                    </li>
+                </ul>
+                <div class="button_shine">
+                    <button type="submit" class="btn_shine contact-us__message">Send message</button>
+                </div>
+            </form>
+
         </section>
     </main>
     <footer class="footer">
         <div class="container footer__container">
-            <span class="footer__copyright">@Copyright 2016-2021 Some Product Site</span>
+            <span class="footer__copyright">&#169; Copyright 2016-2021 Some Product Site</span>
             <img class="footer__logo" src="images/logo-footer.png" alt="logo some product site">
             <nav class="nav footer-nav">
-                <a class="footer-nav__link footer-nav__link_active" href="/">Home</a>
+                <a class="footer-nav__link" href="/">Home</a>
                 <a class="footer-nav__link" href="/about">About</a>
                 <a class="footer-nav__link" href="/contact-us">Contact</a>
                 <a class="footer-nav__link" href="/products">Products</a>
